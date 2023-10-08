@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.Main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+
+.Toss-container {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .Toss-container {
+    width: 60%;
+  }
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .count-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.heads-img {
+  width: 250px;
+  height: 250px;
+}
+
+.tails-img {
+  width: 250px;
+  height: 250px;
+}
